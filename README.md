@@ -75,9 +75,17 @@ For my local machine here is the command as an example:
 
 ## 📥 Input Instructions
 
-- Upload your **pLink 3.0 cross-link results file** (`.txt`)
-- Select cross-link types to filter for Q–K bonds
-- App generates a square matrix of cross-linking positions
+- Use the browse button to upload your **pLink 3.0 cross-link results file** (`.csv`)
+- Select Mode (Process & Generate Matrix in most cases)
+-	separating these two can be used for troubleshooting
+-Select Matrix scope as all pairs (all crosslinks in input file) or Level-specific (these are confident sites listed in the app)
+- Additional protein group filtering can be introduced if yes is selected
+
+![Shiny App Interface](screenshots/app_filter.png)
+
+- Select Run button and results should be shown to the right
+- select download output file 
+
 
 Example file:  
 `test_data/F13vTG2_B30_spectra.csv`
