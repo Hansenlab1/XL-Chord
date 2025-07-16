@@ -80,7 +80,7 @@ For my local machine here is the command as an example:
 - App generates a square matrix of cross-linking positions
 
 Example file:  
-`test_data/example_pLink_output.txt`
+`test_data/F13vTG2_B30_spectra.csv`
 
 ---
 
@@ -93,6 +93,9 @@ The main output is a matrix file compatible with Circos:
   ![Matrix Output](screenshots/output_matrix.png)
 
 This matrix can be downloaded and used for Circos chord diagram creation.
+
+Expected output from example file above:
+`output_download/F13vTG2_B30_spectra_filtered_matrix.csv`
 
 ---
 
