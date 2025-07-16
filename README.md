@@ -121,10 +121,11 @@ Use the Circos tabular visualization webserver:
 Example setup image:  
 ![Circos Interface](circos_setup/circos_interface.png)
 
-4. Adjust parameters:
-    - **Type**: Chord Diagram
-    - **Group name column**: leave as-is
-    - **Value column**: matrix counts
+4. Optional: Adjust parameters under settings tab
+    - **Labels**
+    - **Data Filters**
+    - **Value Remapping**
+    - **etc..**	
 
 5. Optional: adjust color palette, layout, and order..
 details can be found here [Circos samples](https://mk.bcgsc.ca/tableviewer/samples/)
@@ -147,7 +148,8 @@ These can be opened in:
 - **Inkscape**
 
 ### Suggested edits:
-- Remove outer ring labels
+- Remove outer arcs showing occupancy (these are redundant here) 
+- Reposition labels to prevent overlap
 - Modify chord coloring
 - Reorder segments for clarity
 
@@ -156,6 +158,7 @@ These can be opened in:
 ## 📚 Citation
 
 Please cite the tool and associated manuscript when published.  
+If you are using Circos, please cite us: [Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645](https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract)
 
 ---
 
