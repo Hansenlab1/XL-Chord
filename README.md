@@ -119,7 +119,7 @@ Use the Circos tabular visualization webserver:
 3. Upload your output matrix (`output_matrix.txt`)
 
 Example setup image:  
-![Circos Interface](screenshots/circos_interface.png)
+![Circos Interface](circos_setup/circos_interface.png)
 
 4. Adjust parameters:
     - **Type**: Chord Diagram
@@ -132,7 +132,7 @@ details can be found here [Circos samples](https://mk.bcgsc.ca/tableviewer/sampl
 6. select upload
 
 Resulting diagram preview for test input file:  
-![Circos Output](circos_setup/circos_preview.png)
+![Circos Output](circos_setup/circos_output.png)
 
 ---
 
