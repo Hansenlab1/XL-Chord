@@ -67,6 +67,10 @@ The app will open in your web browser. You will see an interface like the one be
 
 ![Shiny App Interface](screenshots/app_interface.png)
 
+For my local machine here is the command as an example:
+
+!shiny::runApp("C:/Users/User/Documents/R_Scripts/RpLinkapp/Rplinkappc.R")
+
 ---
 
 ## 📥 Input Instructions
