@@ -81,7 +81,7 @@ For my local machine here is the command as an example:
 -Select Matrix scope as all pairs (all crosslinks in input file) or Level-specific (these are confident sites listed in the app)
 - Additional protein group filtering can be introduced if yes is selected
 
-![Shiny App Interface](screenshots/app_filter.png)
+![Shiny App Filter](screenshots/app_filter.png)
 
 - Select Run button and results should be shown to the right
 - select download output file 
@@ -115,17 +115,23 @@ Use the Circos tabular visualization webserver:
 ### Quick Start Instructions
 
 1. Visit the [Circos tableviewer](https://mk.bcgsc.ca/tableviewer/)
-2. Upload your output matrix (`output_matrix.tsv`)
-3. Adjust parameters:
+2. delete the "total" and "count" columns and rows in the output .csv file and save as a .txt file
+3. Upload your output matrix (`output_matrix.txt`)
+
+Example setup image:  
+![Circos Interface](screenshots/circo_interface.png)
+
+4. Adjust parameters:
     - **Type**: Chord Diagram
     - **Group name column**: leave as-is
     - **Value column**: matrix counts
-4. Optional: adjust color palette, layout, and orientation
 
-Example setup image:  
-![Circos Setup](circos_setup/circos_input_table.png)
+5. Optional: adjust color palette, layout, and order..
+details can be found here [Circos samples](https://mk.bcgsc.ca/tableviewer/samples/)
 
-Resulting diagram preview:  
+6. select upload
+
+Resulting diagram preview for test input file:  
 ![Circos Output](circos_setup/circos_preview.png)
 
 ---
