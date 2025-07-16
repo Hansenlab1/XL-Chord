@@ -21,10 +21,10 @@
 
 ## ⚙️ Features
 
-- Accepts `_spectra.txt` output files from pLink 3.0 (cross-linked peptides by spectra)
+- Accepts `.txt` versions of `_spectra.csv` output files from pLink 3.0 (cross-linked peptides by spectra)
 - Filters and tabulates Q–K cross-links
-- Generates a symmetric matrix of crosslink sites
-- Outputs files compatible with Circos tabular web visualization
+- Generates a matrix of crosslink sites with Q sites in rows and K sites in columns
+- Outputs files compatible with Circos R tools or web visualization
 - The Circos tool or webserver can be used to produces high-resolution SVG images for further figure customization
 
 ---
