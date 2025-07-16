@@ -116,7 +116,7 @@ Use the Circos tabular visualization webserver:
 
 1. Visit the [Circos tableviewer](https://mk.bcgsc.ca/tableviewer/)
 2. delete the "total" and "count" columns and rows in the output .csv file and save as a .txt file
-3. Upload your output matrix (`output_matrix.txt`)
+3. Upload your output matrix (`_spectra_filtered_matrix_b.txt`)
 
 Example setup image:  
 ![Circos Interface](circos_setup/circos_interface.png)
