@@ -96,7 +96,7 @@ Example file:
 
 The main output is a matrix file compatible with Circos:
 
-- `output_matrix.tsv`: Matrix of cross-linked site frequencies
+- `output_matrix.csv`: Matrix of cross-linked site frequencies
 - Preview within app:  
   ![Matrix Output](screenshots/output_matrix.png)
 
