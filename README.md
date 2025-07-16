@@ -31,7 +31,7 @@
 
 ## 🗂 Repository Contents
 
-- `XL_Chord_ShinyApp.R`: Main R Shiny script
+- `Rplinkapp.R`: Main R Shiny script
 - `www/`: UI assets
 - `test_data/`: Includes example pLink 3.0 results and output files  
     - `example_pLink_output.txt` – Sample input file  
@@ -69,7 +69,7 @@ The app will open in your web browser. You will see an interface like the one be
 
 For my local machine here is the command as an example:
 
-!shiny::runApp("C:/Users/User/Documents/R_Scripts/RpLinkapp/Rplinkappc.R")
+!shiny::runApp("C:/Users/User/Documents/R_Scripts/RpLinkapp/Rplinkapp.R")
 
 ---
 
@@ -157,8 +157,9 @@ These can be opened in:
 
 ## 📚 Citation
 
-Please cite the tool and associated manuscript when published.  
-If you are using Circos, please cite us: [Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645](https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract)
+Please cite the tool and associated manuscript when published (coming soon!).  
+
+If you are using Circos, please cite them: [Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645](https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract)
 
 ---
 
