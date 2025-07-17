@@ -53,7 +53,7 @@
 ### Requirements
 
 - R version ≥ 4.2  
-- Required R packages: `shiny`, `readr`, `tidyverse`
+- Required R packages: `shiny`, `readr`, `dplyr`, `stringr`
 
 ### Local Use
 
