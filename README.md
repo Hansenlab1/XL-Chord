@@ -52,7 +52,8 @@
 
 ### Requirements
 
-- R version ≥ 4.2  
+- R version ≥ 4.2
+- Optional but recommended: RStudio
 - Required R packages: `shiny`, `readr`, `dplyr`, `stringr`
 
 ### Local Use
@@ -63,7 +64,7 @@ Clone the repository and run the app from RStudio or your terminal:
 shiny::runApp("path/to/XL_Chord_ShinyApp.R")
 ```
 
-The app will open in your web browser. You will see an interface like the one below:
+The app will open in a browser. You will see an interface like the one below:
 
 ![Shiny App Interface](screenshots/app_interface.png)
 
