@@ -68,7 +68,7 @@ The app will open in a browser. You will see an interface like the one below:
 
 ![Shiny App Interface](screenshots/app_interface.png)
 
-For my local machine here is the command as an example:
+For my local machine, here is the command as an example:
 
 !shiny::runApp("C:/Users/User/Documents/R_Scripts/RpLinkapp/Rplinkapp.R")
 
@@ -103,7 +103,7 @@ The main output is a matrix file compatible with Circos:
 
 This matrix can be downloaded and used for Circos chord diagram creation.
 
-Expected output from example file above:
+You can check your output with the expected output file from the example file provided above:
 `output_download/F13vTG2_B30_spectra_filtered_matrix.csv`
 
 ---
